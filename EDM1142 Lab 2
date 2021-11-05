@@ -1,0 +1,33 @@
+# Introduction-to-software-engineering-2
+Q1. Propose the most appropriate generic software process model that might be used as a basis for the development of following systems. Give reasons for your answers
+a) A comple real- time system whose requirements can be relatively easily identified and are stable
+b) A web- site for a local library requirements are vague and are likely to change in the future
+c) An order processing system with a web-site for a local business. Requirements are vague but stable ( i.e unlikely to change in the near future)
+Q2. Describe the software process model that you have proposed in question 1(a) highlighting its strengths and weaknesses
+                
+      Answers
+Q1(a) The v model: Because it is an extension of the waterfall model . All the requirements are gathered at the start and can not be changed. You have a corresponding testing activity for each stage. For every phase in the development cycle ,there is an associated testing phase.the v model is highly disciplined , easy to understand and makes project management easier
+(b).Agile model :It encourages continuous iterations of development and testing . Each incremental part is developed over an iteration and each iteration is designed to be small and manageable so it can be completed within a few week and agile development considers the following
+-Requirements are assumed to change
+-The system evolves over a series of short iterations
+- Customers are involved during each iteration
+- Documentation is done only when needed
+(c).waterfall model: is a sequential plan driven-process where you must plan and schedule all your activities before starting the project. It has the following phases
+-Requirements
+-Design
+-Implementation
+-Testing
+-Deployment
+-Maintenance
+A waterfall model has a rigid structure s it should be used in cases where the requirements are understood completely and unlikely to radically change
+Q2.The v model is an extension of the waterfall model . All the requirements are gathered at the start and can not be changed. You have a corresponding testing activity for each stage. For every phase in the development cycle, there is an associated testing phase. The corresponding testing phase of the development phase is planned in parallel. The v model is highly disciplined, easy to understand and makes project management easier. But it isn't good for complex projects or projects that have unclear or changing requirements. This makes the v model a good choice for software where downtimes and failures are unacceptable
+(a).Strengths of the v model
+-The use of the v model is straightforward and easy for the development of software
+-The v model architecture helps to save a lot of time compared to the general process of implementation
+-The v model provides a proactive error tracking feature for developers
+-In the environment of the v model there is no problem with the downward data flow
+(b)weaknesses of the v model
+-The v model is very rigid and hard to execute compared to other software
+-The design has limited flexibility in terms of its execution it is overall not suitable to use for building object- oriented software
+-The v model software is developed during the phase of implementation so no initial prototypes of the software are produced
+-Both test documents and requirement documents require to be updated if there is any fault in the system.
